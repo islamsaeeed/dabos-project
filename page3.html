@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="Styles.css" />
+    <meta charset="utf-8" />
+    <title>Google Advanced</title>
+</head>
+<body>
+    <div>
+        <a href="page1.html" title="Go to Google Search">
+            <img srcset="images\image1.jpg" alt="Google" height="40" width="100" />
+        </a>
+        <ul>
+            <li><a href="page1.html" title="Go to Google Search">| Google Search</a> </li>
+            <li><a href="page2.html" title="Go to Google Images">| Images</a> </li>
+        </ul>
+    </div>
+    <h2> <label class="f_header"><span style="color:red">Advanced Search</span></label></h2>
+    <div>
+        <form action="https://www.google.com/search" method="get">
+            <table>
+                <tr>
+                    <td><label class="form_edit1"for="all these words">All these words:</label></td>
+                    <td><input class="form_edit2" id="all these words" name="q"  type="text" placeholder="Type the important words: tri-colour rat terrier" /></td>
+                </tr>
+                <tr>
+                    <td><label class="form_edit1" for="this exact word or phrase">This exact word or phrase:</label></td>
+                    <td><input class="form_edit2" id="this exact word or phrase" name="q" type="text" placeholder="Put exact words in quotes" rat terrier" /></td>
+                </tr>
+                <tr>
+                    <td> <label class="form_edit1" for="any of these words">Any of these words:</label></td>
+                    <td><input  class="form_edit2" id="any of these words" name="q" type="text" placeholder="Type OR between all the words you want: miniature OR standard" /></td>
+                </tr>
+                <tr>
+                    <td><label  class="form_edit1" for="none of these words">None of these words:</label></td>
+                    <td><input class="form_edit2" id="none of these words" name="q"  type="text" placeholder="Put a minus sign just before words that you don't want: -rodent, -" Jack Russell"" /></td>
+                </tr>
+                <tr>
+                    <td> <input class="btn" type="submit" value="Advanced Search" title="Search"  /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+</body>
+</html>

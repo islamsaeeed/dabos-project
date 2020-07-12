@@ -1,0 +1,152 @@
+﻿body
+{
+    font-family:Arial , sans-serif;
+    font-size:16px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover {
+    color: darkgray;
+}
+ul
+{
+    float:right;
+}
+li
+{
+    display:inline-block;
+}
+#f_logo
+{
+    height: 150px;
+    width: 360px;
+    margin-left: 36%;
+    margin-top: 10%;
+}
+#s_logo 
+{
+    height: 150px;
+    width: 300px;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+.form_edit {
+    color: #626262;
+    padding: 4px;
+    width: 150px;
+    height: 34px;
+    border-radius: 4px;
+    display: block;
+    background-color: #f2f2f2;
+}
+#move1 {
+    margin-left: 460px;
+}
+#move2 {
+    margin-left: 650px;
+    margin-top: -34px;
+}
+#move3{
+    margin-left:550px;
+}
+
+input {
+    font-size: 16px;
+    border: 1px solid #E1E1E1;
+}
+.input1 {
+    outline: none;
+    width: 550px;
+    height: 39px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    margin-top: -10px;
+    border-radius: 17px;
+}
+input:hover
+{
+   color:lightslategrey;
+}
+.input_1
+{
+   margin-top:50px;
+}
+.input_11
+{
+    padding:50px;
+}
+.input_111 
+{
+    width: 550px;
+    margin-left: 124px;
+    height: 30px;
+    border-color:darkgrey;
+
+}
+.input_12 
+{
+    width: 550px;
+    margin-left: 50px;
+    height: 30px;
+    border-color: darkgrey;
+}
+.input_13 {
+    width: 550px;
+    margin-left: 99px;
+    height: 30px;
+    border-color: darkgrey;
+}
+.input_14 {
+    width: 550px;
+    margin-left: 90px;
+    height: 30px;
+    border-color: darkgrey;
+}
+h2
+{
+    margin-left:50px;
+    margin-top:50px;
+    font-weight:lighter;
+    font-size:20px;
+}
+table
+{
+    margin-left:50px;
+    padding-top:70px;
+}
+.form_edit1{
+    font-family:Arial ,sans-serif;
+    font-size:16px;
+    margin-top:5px;
+}
+.form_edit2 {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 12px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 450px;
+    text-align: left;
+    text-shadow: none;
+    margin-top: 15px;
+    margin-left: 100px;
+    
+}
+.btn {
+    margin-right:-550px;
+    margin-top:20px;
+    background-color: #4d90fe;
+    float: right;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing:border-box;
+    width:105px;
+    height:30px;
+}
