@@ -65,6 +65,10 @@ input {
     margin-top: -10px;
     border-radius: 17px;
 }
+input:focus
+{
+    outline:none;
+}
 input:hover
 {
    color:lightslategrey;
@@ -132,8 +136,7 @@ table
     text-align: left;
     text-shadow: none;
     margin-top: 15px;
-    margin-left: 100px;
-    
+    margin-left: 100px;    
 }
 .btn {
     margin-right:-550px;
